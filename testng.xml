@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DemoSuite">
+	<listeners>
+		<listener class-name="com.demoqa.qa.listeners.CustomListener" />
+	</listeners>
+  <test name="Test">
+    <classes>
+      <class name="com.demoqa.qa.testcases.HomePageTest">
+      <methods>
+      <include name = "validateUI"/>
+      </methods> 
+      </class>
+    </classes>
+  </test>
+</suite> 
